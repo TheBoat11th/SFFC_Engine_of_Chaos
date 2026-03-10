@@ -1,0 +1,1 @@
+Start_Cutscene(cutscene_ID,current_object,id);//Cutscene_ID, Player, Self

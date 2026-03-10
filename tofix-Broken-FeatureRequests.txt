@@ -1,0 +1,10 @@
+Map Cursor
+character below tree
+draw cursor 1 below character
+draw 2 above treee and only on tree
+
+increase cursor speed - set to even numbers
+
+load perma_death config
+
+set fps with number input

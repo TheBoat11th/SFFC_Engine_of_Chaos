@@ -1,0 +1,1 @@
+Set_Lootable_Barrel(id,2,"SF2_Healing_Seed",0);

@@ -1,0 +1,1 @@
+Set_Monster_Spawner_Stats(id,"Battle_01_Wolf_Cave");

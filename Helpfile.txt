@@ -8,9 +8,15 @@ global.Pass_Through_Character for cutscene writing - Destination_Blocked line 14
 
 Display Cursor Disabled inrelease
 
+obj_Character
+AU_Max
+AU_Jason
 
-create room
-set object on map
+create room from room template
+select room and set width and height
+go to viewports and cameras to set viewport 0 xy pos.
+set object controller on map
+
 map backround sprite
 set room order
 
@@ -27,3 +33,31 @@ Movement_Tile: Create - image_speed increase to .25 to match  SF Legacy of Great
 					4  4  4  4  4  4  4  4   32
 //LOGI - nddlnln			0,-1,-2,-1,0,+1,0
 					3 3   9  3 6  3 3 	 30
+
+
+https://finalconflict.shiningforcecentral.com/pages/characters_force_ian.html
+Character Properties
+overworld sprite
+Get_Character__Health
+Get_Character__Magic
+Attack_Range
+Level_Scheme
+Boost battle cutscene event
+battle sprite
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

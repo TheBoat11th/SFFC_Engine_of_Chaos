@@ -17,8 +17,9 @@ function Draw_Title_Screen(){
 	//==========
 	//Draw Code=
 	//==========
-	draw_set_color(c_white); //Default to white draw color for sprites
-	draw_sprite(bg_Title_Screen,0,_background_image_x,_background_image_y); //draw title screen
+	//draw_set_color(c_white); //Default to white draw color for sprites
+	draw_sprite(bg_Title_Screen,-1,_background_image_x,_background_image_y); //draw title screen
+	/*
 	draw_sprite(spr_Start_Game_Button,0,_button_x,_button_y);
 
 	draw_set_font(font_type); //Font
@@ -32,4 +33,5 @@ function Draw_Title_Screen(){
 	draw_text(_welcome_text_x, _welcome_text_y, welcome_message); //draw the welcome message
 
 	draw_set_color(c_white); //Reset back to white draw
+	*/
 }

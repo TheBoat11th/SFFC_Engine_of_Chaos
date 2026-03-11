@@ -7,7 +7,7 @@ state = "Room_Start";//event state
 //Create_New_Data();//Initialize character data
 //Create_Audio_Controller();//Create Audio Controller
 //Load_Config();//Load our configuration (If it exists)
-
+image_speed = 0.08 / global.xspeed;
 //=======================
 //Modifyable Declarations
 //=======================
@@ -15,7 +15,7 @@ font_color = c_white;//The color of our font
 font_type = fnt_MenuFont;//Font we're using
 
 start_button_text = "SPACE TO START";//Text that displays over the start button
-start_button = vk_space;//button that starts the game
+start_button = vk_enter;//button that starts the game
 
 //================
 //Welcome Messages
@@ -23,11 +23,11 @@ start_button = vk_space;//button that starts the game
 randomize();//generate a seed for RNG calculations
 
 var temp;
-temp = round(random_range(0,12));//Random number between 0 and N+1
+temp = 0//round(random_range(0,12));//Random number between 0 and N+1
 welcome_message = "Default Message!";//default message
 
 switch(temp){
-    case 0: welcome_message = "Default Message!"; break;
+    case 0: welcome_message = ""; break;
     case 1: welcome_message = "Now with random\n title messages!"; break;
     case 2: welcome_message = "Release or riot!"; break;
     case 3: welcome_message = "Now with complimentary\n bugs!"; break;

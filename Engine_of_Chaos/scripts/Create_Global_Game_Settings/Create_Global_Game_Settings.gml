@@ -12,7 +12,7 @@ function Create_Global_Game_Settings() {
 	global.Fast_Forward = ord("F")
 
 	//game settings
-	global.Pixel_Divider = 3;
+	global.Pixel_Divider = 4;
 	global.Vsync = false;
 	global.FPS_Cap = 60;
 	global.Dialogue_Speed = 4;

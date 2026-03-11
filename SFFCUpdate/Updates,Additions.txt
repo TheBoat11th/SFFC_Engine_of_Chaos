@@ -1,0 +1,17 @@
+Text Scroll:
+duplicate splash screen
+select ui instance layer
+select splash controller on map grid
+delete controller and add scroll controller
+
+Title Screen
+Import both frames to sprite
+edit obj_title_screen_controller - create
+add image_speed = 0.08 / global.xspeed; at line 10
+change line 21 from
+draw_sprite(bg_Title_Screen,0,_background_image_x,_background_image_y); //draw title screen
+to
+draw_sprite(bg_Title_Screen,-1,_background_image_x,_background_image_y); //draw title screen
+
+room_Intro_Menu
+add Background_Color_Layer sprite, select Stretch

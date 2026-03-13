@@ -1,1 +1,1 @@
-Set_Character_Stats(id,"AU_Jason");
+Set_Character_Stats(id,"Max");

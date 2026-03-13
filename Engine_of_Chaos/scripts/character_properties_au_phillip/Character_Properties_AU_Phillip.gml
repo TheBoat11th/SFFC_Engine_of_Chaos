@@ -1,7 +1,7 @@
 //======================
 //Character Object Setup
 //======================
-function Town_Character_Stats_Mead(_character){
+function Town_Character_Stats_AU_Phillip(_character){
 	with(_character){
 		Set_Town_Party_Member_Stats(5);
 	}
@@ -10,11 +10,11 @@ function Town_Character_Stats_Mead(_character){
 //======================
 //Overworld Sprite Setup
 //======================
-function Get_Appearance_Mead(_lookup_type,_character,_stat){
-	var _overworld_sprite = spr_Mead_KNT_Overworld; 
-	var _portrait = spr_Mead_KNT_Portrait;
+function Get_Appearance_AU_Phillip(_lookup_type,_character,_stat){
+	var _overworld_sprite = spr_AU_Phillip_KNT_Overworld; 
+	var _portrait = spr_AU_Phillip_KNT_Portrait;
 	var _voice = sfx_Dialogue06;
-	var _battle_sprite = "Mead_KNT";
+	var _battle_sprite = "AU_Phillip_KNT";
 	
 	var _overworld_override = noone;
 	var _portrait_override = noone;
@@ -26,9 +26,9 @@ function Get_Appearance_Mead(_lookup_type,_character,_stat){
 	//=============
 	switch(Get_Character_Class(_lookup_type,_character,"Abbreviation")){
 		case "PLDN": 
-			_overworld_sprite = spr_Mead_KNT_Overworld; 
+			_overworld_sprite = spr_AU_Phillip_KNT_Overworld; 
 			_voice = sfx_Dialogue06;
-			_battle_sprite = "Mead_KNT";
+			_battle_sprite = "AU_Phillip_KNT";
 		break;
 	}
 	//=====================
@@ -52,13 +52,13 @@ function Get_Appearance_Mead(_lookup_type,_character,_stat){
 //===================
 //Battle Sprite Setup
 //===================
-function Get_Battle_Sprite_Stats_Mead_KNT(_animation,_stat){
+function Get_Battle_Sprite_Stats_AU_Phillip_KNT(_animation,_stat){
 	//=============
 	//Default Stats (Assume Idle Animation)
 	//=============
 	var _parent_animation = _animation;
 	var _location = "Foreground"; //Foreground or Background
-	var _sprite = spr_Mead_KNT_Idle; //Sprite
+	var _sprite = spr_AU_Phillip_KNT_Idle; //Sprite
 	var _animation_speed = .0625 / global.xspeed; //Animation Speed
 	var _projectile_type = "Weapon"; //Projectile Sprite ("Weapon" uses sprite set via item's script)
 	var _projectile_path = "Default"; //Path of the projectile ("Default" = straight line, "Arc" = long volley)
@@ -69,10 +69,10 @@ function Get_Battle_Sprite_Stats_Mead_KNT(_animation,_stat){
 	//Animation Overrides
 	//===================
 	switch(_animation){
-		case "Melee_Attack": _sprite = spr_Mead_KNT_Attack; break;
-		case "Block": _sprite = spr_Mead_KNT_Block; break;
-		case "Ranged_Attack": _sprite = spr_Mead_KNT_Ranged_Attack; break;
-		case "Use_Item": _sprite = spr_Mead_KNT_Use_Item; break;
+		case "Melee_Attack": _sprite = spr_AU_Phillip_KNT_Attack; break;
+		case "Block": _sprite = spr_AU_Phillip_KNT_Block; break;
+		case "Ranged_Attack": _sprite = spr_AU_Phillip_KNT_Ranged_Attack; break;
+		case "Use_Item": _sprite = spr_AU_Phillip_KNT_Use_Item; break;
 		default: //Run parent animation by default if child isn't set (ranged / spell_cast runs melee, etc.)
 			_parent_animation = Get_Battle_Sprite_Stats_Default(_animation,"Parent_Animation");
 			_use_controller_animation = Get_Battle_Sprite_Stats_Default(_animation,"Use_Controller_Animation");
@@ -97,7 +97,7 @@ function Get_Battle_Sprite_Stats_Mead_KNT(_animation,_stat){
 //===============================
 //Battle Cutscene Weapon Position
 //===============================
-function Get_Weapon_Position_Mead_KNT(_object,_stat){
+function Get_Weapon_Position_AU_Phillip_KNT(_object,_stat){
 	var _sprite = _object.sprite_index;
 	var _frame = _object.current_frame;
 
@@ -118,29 +118,29 @@ function Get_Weapon_Position_Mead_KNT(_object,_stat){
 	//Set Hand Position (Position of character's hand in sprite editor)
 	//=================
 	switch(_sprite){
-	    case spr_Mead_KNT_Idle:
+	    case spr_AU_Phillip_KNT_Idle:
 	        switch(_frame){
 	            default: _x_pos = 93; _y_pos = 45; _rotation = 0; break;
 	        }
 	    break;
-	    case spr_Mead_KNT_Attack:
+	    case spr_AU_Phillip_KNT_Attack:
 	        switch(_frame){
 	            case 0:  _x_pos = 86; _y_pos = 18; _rotation = 0; break;
 	            case 1: _x_pos = 61; _y_pos = 47; _rotation = 90; break;
 	        }
 	    break;
-		case spr_Mead_KNT_Ranged_Attack:
+		case spr_AU_Phillip_KNT_Ranged_Attack:
 	        switch(_frame){
 	            case 0:  _x_pos = 84; _y_pos = 42; _rotation = 30; break;
 	            case 1: _x_pos = 86; _y_pos = 18; _rotation = 0; break;
 	        }
 	    break;
-	    case spr_Mead_KNT_Block:
+	    case spr_AU_Phillip_KNT_Block:
 	        switch(_frame){
 	            case 0: _x_pos = 84; _y_pos = 42; _rotation = 30; break;
 	        }
 	    break;
-	    case spr_Mead_KNT_Use_Item:
+	    case spr_AU_Phillip_KNT_Use_Item:
 	        switch(_frame){
 	            case 0:  _x_pos = 84; _y_pos = 42; _rotation = 30; break;
 	            case 1: _x_pos = 86; _y_pos = 18; _rotation = 0; break;

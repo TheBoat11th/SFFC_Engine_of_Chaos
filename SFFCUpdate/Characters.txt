@@ -21,6 +21,18 @@ Kojirou	Class: Samurai (SMRI)   Race: Human
 Max	Class: Hero (HERO)   Race: Human
 Oddeye	Class: Greater Devil (GDVL)   Race: Devil
 
+spr_Sonette_ACHR_Overworld
+spr_Sonette_ACHR_Portrait
+spr_Sonette_ACHR_Portrait_Blink
+
+spr_Sonette_ACHR_Idle
+spr_Sonette_ACHR_Attack
+spr_Sonette_ACHR_Block
+spr_Sonette_ACHR_Use_Item
+spr_Sonette_ACHR_Cast_Spell
+
+
+
 NPC:
 Adam
 Elder

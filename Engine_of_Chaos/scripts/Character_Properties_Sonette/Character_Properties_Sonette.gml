@@ -26,10 +26,10 @@ function Town_Character_Stats_Sonette(_character){
 //Overworld Sprite Setup
 //======================
 function Get_Appearance_Sonette(_lookup_type,_character,_stat){
-	var _overworld_sprite = spr_Sonette_ARCR_Overworld; 
-	var _portrait = spr_Sonette_ARCR_Portrait;
+	var _overworld_sprite = spr_Sonette_ACHR_Overworld; 
+	var _portrait = spr_Sonette_ACHR_Portrait;
 	var _voice = sfx_Dialogue05;
-	var _battle_sprite = "Sonette_ARCR";
+	var _battle_sprite = "Sonette_ACHR";
 	
 	var _overworld_override = noone;
 	var _portrait_override = noone;
@@ -63,13 +63,13 @@ function Get_Appearance_Sonette(_lookup_type,_character,_stat){
 //===================
 //Battle Sprite Setup
 //===================
-function Get_Battle_Sprite_Stats_Sonette_ARCR(_animation,_stat){
+function Get_Battle_Sprite_Stats_Sonette_ACHR(_animation,_stat){
 	//=============
 	//Default Stats (Assume Idle Animation)
 	//=============
 	var _parent_animation = _animation;
 	var _location = "Foreground"; //Foreground or Background
-	var _sprite = spr_Sonette_ARCR_Idle; //Sprite
+	var _sprite = spr_Sonette_ACHR_Idle; //Sprite
 	var _animation_speed = .0625 / global.xspeed; //Animation Speed
 	var _projectile_type = "Weapon"; //Projectile Sprite ("Weapon" uses sprite set via item's script)
 	var _projectile_path = "Default"; //Path of the projectile ("Default" = straight line, "Arc" = long volley)
@@ -80,10 +80,10 @@ function Get_Battle_Sprite_Stats_Sonette_ARCR(_animation,_stat){
 	//Animation Overrides
 	//===================
 	switch(_animation){
-		case "Melee_Attack": _sprite = spr_Sonette_ARCR_Attack; _projectile_path = "Default_Melee"; break;
-		case "Ranged_Attack": _sprite = spr_Sonette_ARCR_Attack; _projectile_path = "Default"; break;
-		case "Block": _sprite = spr_Sonette_ARCR_Block; break;
-		case "Use_Item": _sprite = spr_Sonette_ARCR_Use_Item; break;
+		case "Melee_Attack": _sprite = spr_Sonette_ACHR_Attack; _projectile_path = "Default_Melee"; break;
+		case "Ranged_Attack": _sprite = spr_Sonette_ACHR_Attack; _projectile_path = "Default"; break;
+		case "Block": _sprite = spr_Sonette_ACHR_Block; break;
+		case "Use_Item": _sprite = spr_Sonette_ACHR_Use_Item; break;
 		default: //Run parent animation by default if child isn't set (ranged / spell_cast runs melee, etc.)
 			_parent_animation = Get_Battle_Sprite_Stats_Default(_animation,"Parent_Animation");
 			_use_controller_animation = Get_Battle_Sprite_Stats_Default(_animation,"Use_Controller_Animation");
@@ -108,7 +108,7 @@ function Get_Battle_Sprite_Stats_Sonette_ARCR(_animation,_stat){
 //===============================
 //Battle Cutscene Weapon Position
 //===============================
-function Get_Weapon_Position_Sonette_ARCR(_object,_stat){
+function Get_Weapon_Position_Sonette_ACHR(_object,_stat){
 	var _sprite = _object.sprite_index;
 	var _frame = _object.current_frame;
 
@@ -129,20 +129,20 @@ function Get_Weapon_Position_Sonette_ARCR(_object,_stat){
 	//Set Hand Position (Position of character's hand in sprite editor)
 	//=================
 	switch(_sprite){
-		//case spr_Sonette_ARCR_Idle:
+		//case spr_Sonette_ACHR_Idle:
 	    //    switch(_frame){
 	    //        //case 1: _x_pos = 42; _y_pos = 50; _rotation = 45; break;
 		//		default: _x_pos = 74; _y_pos = 52; _rotation = 45; _hidden = true;break;
 	    //    }
 	    //break;
-	    case spr_Sonette_ARCR_Attack:
+	    case spr_Sonette_ACHR_Attack:
 	        switch(_frame){
 				case 0: _x_pos = 61; _y_pos = 39; _rotation = 0; _hidden = false; break;
 	            case 1: _x_pos = 61; _y_pos = 38; _rotation = 0; _hidden = true; break;
 				default: _x_pos = 61; _y_pos = 38; _rotation = 0; _hidden = true; break;
 	        }
 	    break;
-	    //case spr_Sonette_ARCR_Block:
+	    //case spr_Sonette_ACHR_Block:
 	    //    switch(_frame){
 	    //        default: _x_pos = 78; _y_pos = 50; _rotation = 0; _hidden = true; break;
 	    //    }

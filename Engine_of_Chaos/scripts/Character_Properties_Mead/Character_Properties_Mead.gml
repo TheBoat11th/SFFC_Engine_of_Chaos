@@ -26,9 +26,9 @@ function Get_Appearance_Mead(_lookup_type,_character,_stat){
 	//=============
 	switch(Get_Character_Class(_lookup_type,_character,"Abbreviation")){
 		case "PLDN": 
-			_overworld_sprite = spr_Mead_KNTE_Overworld; 
+			_overworld_sprite = spr_Mead_PLDN_Overworld; 
 			_voice = sfx_Dialogue06;
-			_battle_sprite = "Mead_KNTE";
+			_battle_sprite = "Mead_PLDN";
 		break;
 	}
 	//=====================

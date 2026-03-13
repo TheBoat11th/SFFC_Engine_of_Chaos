@@ -25,9 +25,9 @@ function Get_Appearance_Hawel(_lookup_type,_character,_stat){
 	//Class Sprites
 	//=============
 	switch(Get_Character_Class(_lookup_type,_character,"Abbreviation")){
-		case "WIZ": 
+		case "WIZD": 
 			_overworld_sprite = spr_Generic_Chicken_Overworld; 
-			_battle_sprite = "Hawel_WIZ";
+			_battle_sprite = "Hawel_WIZD";
 		break;
 	}
 	//=====================

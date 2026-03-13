@@ -27,7 +27,7 @@ function Get_Appearance_Kojirou(_lookup_type,_character,_stat){
 	//Class Sprites
 	//=============
 	switch(Get_Character_Class(_lookup_type,_character,"Abbreviation")){
-		case "HERO": _overworld_sprite = spr_Generic_Chicken_Overworld; break;
+		case "SMRI": _overworld_sprite = spr_Generic_Chicken_Overworld; break;
 	}
 	//=====================
 	//Set costume overrides

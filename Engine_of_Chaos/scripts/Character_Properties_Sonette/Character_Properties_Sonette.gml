@@ -7,16 +7,8 @@ function Town_Character_Stats_Sonette(_character){
 		
 		switch(global.Story_State){
 			case 1:
-				allow_wander = false;
-				Face_Direction(id,"Down");
 			break;
 			case 3:
-				allow_wander = false;
-				dialogue_script =  "Max_With_Milkshake_Cutscene";
-				cutscene_mode = false;
-				x = 312;
-				y = 672;
-				direction = 180;
 			break;
 		}
 	}

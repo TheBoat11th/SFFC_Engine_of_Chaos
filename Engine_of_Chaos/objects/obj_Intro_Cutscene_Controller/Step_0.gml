@@ -7,6 +7,6 @@ if(allow_interaction){//if pressing keys is enabled
     }
 }
 
-Pan_Camera_To_Location(300,633,false,999);
+Pan_Camera_To_Location(300,561,false,999);
 
 //SFFC_Intro_Cutscene();

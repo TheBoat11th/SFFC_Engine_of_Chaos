@@ -15,3 +15,7 @@ draw_sprite(bg_Title_Screen,-1,_background_image_x,_background_image_y); //draw 
 
 room_Intro_Menu
 add Background_Color_Layer sprite, select Stretch
+
+Intro_Cutscene
+
+B01_Cutscene

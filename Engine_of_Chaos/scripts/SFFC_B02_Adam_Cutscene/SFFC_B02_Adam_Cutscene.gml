@@ -101,7 +101,7 @@ function SFFC_B02_Adam_Cutscene(){
 		case 12.5:
 	        state += .1;
 			//Move_Character(_Sonette,"Up",6,1);
-			Move_Character(_Mead,"Up",12,3);
+			Move_Character(_Mead,"Up",11,3);
 			//Move_Character(_Paige,"Up",6,2);
 			alarm[0] = 120 * global.xspeed;
 		break;
@@ -114,7 +114,7 @@ function SFFC_B02_Adam_Cutscene(){
 		break;
 		case 13:
 	        state += 1;
-			 Move_Character(_Paige,"Up",14,3);
+			 Move_Character(_Paige,"Up",12,3);
 			 alarm[0] = 120 * global.xspeed;
 		break;
 		case 14:

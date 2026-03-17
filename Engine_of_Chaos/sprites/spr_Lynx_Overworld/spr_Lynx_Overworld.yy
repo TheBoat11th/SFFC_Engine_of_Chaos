@@ -13,10 +13,10 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d31cac2c-cb70-44f9-920d-8c920fbcb860",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e41e5a91-5d40-4035-9aa0-a84acd080fc4",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d7acb426-eeed-4588-a99a-475984b4b7fe",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b57e2a78-9c62-4743-b2e0-49f08e6ae8e7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d31cac2c-cb70-44f9-920d-8c920fbcb860",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e41e5a91-5d40-4035-9aa0-a84acd080fc4",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a9306715-d69f-4e66-901f-c9fbf5f7e2e3",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c8ae16d7-536f-4779-8935-33b8a643d0e2",},
   ],
@@ -82,10 +82,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d31cac2c-cb70-44f9-920d-8c920fbcb860","path":"sprites/spr_Lynx_Overworld/spr_Lynx_Overworld.yy",},},},"Disabled":false,"id":"f479cdbf-a4b9-4e01-ad71-bc9b4d0f9c89","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e41e5a91-5d40-4035-9aa0-a84acd080fc4","path":"sprites/spr_Lynx_Overworld/spr_Lynx_Overworld.yy",},},},"Disabled":false,"id":"84965382-805c-48d0-87e5-0909dce418c3","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d7acb426-eeed-4588-a99a-475984b4b7fe","path":"sprites/spr_Lynx_Overworld/spr_Lynx_Overworld.yy",},},},"Disabled":false,"id":"b7c91c3e-4245-4301-a10a-172643515918","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b57e2a78-9c62-4743-b2e0-49f08e6ae8e7","path":"sprites/spr_Lynx_Overworld/spr_Lynx_Overworld.yy",},},},"Disabled":false,"id":"e04d4fe3-09d7-41d9-be7b-c5e6e61686c9","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d7acb426-eeed-4588-a99a-475984b4b7fe","path":"sprites/spr_Lynx_Overworld/spr_Lynx_Overworld.yy",},},},"Disabled":false,"id":"b7c91c3e-4245-4301-a10a-172643515918","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b57e2a78-9c62-4743-b2e0-49f08e6ae8e7","path":"sprites/spr_Lynx_Overworld/spr_Lynx_Overworld.yy",},},},"Disabled":false,"id":"e04d4fe3-09d7-41d9-be7b-c5e6e61686c9","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d31cac2c-cb70-44f9-920d-8c920fbcb860","path":"sprites/spr_Lynx_Overworld/spr_Lynx_Overworld.yy",},},},"Disabled":false,"id":"f479cdbf-a4b9-4e01-ad71-bc9b4d0f9c89","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e41e5a91-5d40-4035-9aa0-a84acd080fc4","path":"sprites/spr_Lynx_Overworld/spr_Lynx_Overworld.yy",},},},"Disabled":false,"id":"84965382-805c-48d0-87e5-0909dce418c3","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a9306715-d69f-4e66-901f-c9fbf5f7e2e3","path":"sprites/spr_Lynx_Overworld/spr_Lynx_Overworld.yy",},},},"Disabled":false,"id":"a40f1243-0f7d-4d53-939f-250c671ba190","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c8ae16d7-536f-4779-8935-33b8a643d0e2","path":"sprites/spr_Lynx_Overworld/spr_Lynx_Overworld.yy",},},},"Disabled":false,"id":"127d09dc-f4ac-4d60-ad3e-f4039298fcc2","IsCreationKey":false,"Key":5.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},

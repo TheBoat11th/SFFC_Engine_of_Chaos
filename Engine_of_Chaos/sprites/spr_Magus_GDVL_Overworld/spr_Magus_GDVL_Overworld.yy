@@ -13,10 +13,10 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf6f7ea0-2508-4242-9c23-f478e51f2632",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a8c841ea-3782-4804-99a5-cf092bdc62cc",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1396259a-f966-4b23-951f-8ba4b4fb66b8",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe7116ac-e787-480c-88a7-b98a8db49dab",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf6f7ea0-2508-4242-9c23-f478e51f2632",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a8c841ea-3782-4804-99a5-cf092bdc62cc",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ffb952b2-6880-4b74-89b0-b17f0b3b1428",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d456de16-e8c8-487d-b546-d001979d6fed",},
   ],
@@ -59,10 +59,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cf6f7ea0-2508-4242-9c23-f478e51f2632","path":"sprites/spr_Magus_GDVL_Overworld/spr_Magus_GDVL_Overworld.yy",},},},"Disabled":false,"id":"45900e1d-85dc-4320-93e7-2d53e1028ca9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a8c841ea-3782-4804-99a5-cf092bdc62cc","path":"sprites/spr_Magus_GDVL_Overworld/spr_Magus_GDVL_Overworld.yy",},},},"Disabled":false,"id":"469173ea-80fa-4d20-bf3c-69c563107eb8","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1396259a-f966-4b23-951f-8ba4b4fb66b8","path":"sprites/spr_Magus_GDVL_Overworld/spr_Magus_GDVL_Overworld.yy",},},},"Disabled":false,"id":"6521aa6d-8cee-4ef8-bb5c-ccd0274d2d3a","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fe7116ac-e787-480c-88a7-b98a8db49dab","path":"sprites/spr_Magus_GDVL_Overworld/spr_Magus_GDVL_Overworld.yy",},},},"Disabled":false,"id":"da761086-4efa-40d9-b75a-2ece4904df13","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1396259a-f966-4b23-951f-8ba4b4fb66b8","path":"sprites/spr_Magus_GDVL_Overworld/spr_Magus_GDVL_Overworld.yy",},},},"Disabled":false,"id":"6521aa6d-8cee-4ef8-bb5c-ccd0274d2d3a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fe7116ac-e787-480c-88a7-b98a8db49dab","path":"sprites/spr_Magus_GDVL_Overworld/spr_Magus_GDVL_Overworld.yy",},},},"Disabled":false,"id":"da761086-4efa-40d9-b75a-2ece4904df13","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cf6f7ea0-2508-4242-9c23-f478e51f2632","path":"sprites/spr_Magus_GDVL_Overworld/spr_Magus_GDVL_Overworld.yy",},},},"Disabled":false,"id":"45900e1d-85dc-4320-93e7-2d53e1028ca9","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a8c841ea-3782-4804-99a5-cf092bdc62cc","path":"sprites/spr_Magus_GDVL_Overworld/spr_Magus_GDVL_Overworld.yy",},},},"Disabled":false,"id":"469173ea-80fa-4d20-bf3c-69c563107eb8","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ffb952b2-6880-4b74-89b0-b17f0b3b1428","path":"sprites/spr_Magus_GDVL_Overworld/spr_Magus_GDVL_Overworld.yy",},},},"Disabled":false,"id":"5d39a70f-ab23-46ed-ad4f-4b09aa0bf332","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d456de16-e8c8-487d-b546-d001979d6fed","path":"sprites/spr_Magus_GDVL_Overworld/spr_Magus_GDVL_Overworld.yy",},},},"Disabled":false,"id":"0b1eaac9-1760-46b3-b981-a93778faf072","IsCreationKey":false,"Key":5.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},

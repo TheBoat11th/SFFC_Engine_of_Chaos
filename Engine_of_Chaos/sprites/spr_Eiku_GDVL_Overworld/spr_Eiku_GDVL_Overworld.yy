@@ -13,10 +13,10 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6197932f-7311-4de7-b879-6d55fcf84ab2",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9bdac331-816e-4d6c-ac33-8e6e415dfecf",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0e62aace-8cc5-47a4-a9bf-ae638fafb24c",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a29e26fc-d32a-4cd5-8618-199a9585f4b8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6197932f-7311-4de7-b879-6d55fcf84ab2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9bdac331-816e-4d6c-ac33-8e6e415dfecf",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0edb69a5-9809-4152-820c-6c1e76277dab",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"97e64383-34e3-4cb0-9f51-19193717f57c",},
   ],
@@ -59,10 +59,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6197932f-7311-4de7-b879-6d55fcf84ab2","path":"sprites/spr_Eiku_GDVL_Overworld/spr_Eiku_GDVL_Overworld.yy",},},},"Disabled":false,"id":"2394657e-246e-4947-8b0a-f4374c9af3dc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9bdac331-816e-4d6c-ac33-8e6e415dfecf","path":"sprites/spr_Eiku_GDVL_Overworld/spr_Eiku_GDVL_Overworld.yy",},},},"Disabled":false,"id":"badbd885-4af3-4233-ae0e-ff8ff2b3c748","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0e62aace-8cc5-47a4-a9bf-ae638fafb24c","path":"sprites/spr_Eiku_GDVL_Overworld/spr_Eiku_GDVL_Overworld.yy",},},},"Disabled":false,"id":"3ff625b6-df7d-4016-96be-669b5f43c472","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a29e26fc-d32a-4cd5-8618-199a9585f4b8","path":"sprites/spr_Eiku_GDVL_Overworld/spr_Eiku_GDVL_Overworld.yy",},},},"Disabled":false,"id":"a1cd8770-64d6-4cc0-b33b-9e1043e38200","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0e62aace-8cc5-47a4-a9bf-ae638fafb24c","path":"sprites/spr_Eiku_GDVL_Overworld/spr_Eiku_GDVL_Overworld.yy",},},},"Disabled":false,"id":"3ff625b6-df7d-4016-96be-669b5f43c472","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a29e26fc-d32a-4cd5-8618-199a9585f4b8","path":"sprites/spr_Eiku_GDVL_Overworld/spr_Eiku_GDVL_Overworld.yy",},},},"Disabled":false,"id":"a1cd8770-64d6-4cc0-b33b-9e1043e38200","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6197932f-7311-4de7-b879-6d55fcf84ab2","path":"sprites/spr_Eiku_GDVL_Overworld/spr_Eiku_GDVL_Overworld.yy",},},},"Disabled":false,"id":"2394657e-246e-4947-8b0a-f4374c9af3dc","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9bdac331-816e-4d6c-ac33-8e6e415dfecf","path":"sprites/spr_Eiku_GDVL_Overworld/spr_Eiku_GDVL_Overworld.yy",},},},"Disabled":false,"id":"badbd885-4af3-4233-ae0e-ff8ff2b3c748","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0edb69a5-9809-4152-820c-6c1e76277dab","path":"sprites/spr_Eiku_GDVL_Overworld/spr_Eiku_GDVL_Overworld.yy",},},},"Disabled":false,"id":"a7b8952b-b72d-41aa-820b-461591a53725","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"97e64383-34e3-4cb0-9f51-19193717f57c","path":"sprites/spr_Eiku_GDVL_Overworld/spr_Eiku_GDVL_Overworld.yy",},},},"Disabled":false,"id":"3c80b0ac-0baf-4e68-8d4a-643d8e1449da","IsCreationKey":false,"Key":5.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},

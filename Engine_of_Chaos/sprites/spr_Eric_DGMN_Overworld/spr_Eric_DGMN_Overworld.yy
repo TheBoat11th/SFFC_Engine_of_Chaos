@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_Eric_DGMN_Overworld",
-  "bbox_bottom": 79,
+  "bbox_bottom": 0,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 0,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"adf6cba9-f0e3-4c23-a186-b0be21388bb1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a6cde32d-cdd2-4a73-97d5-7723692cdaa2",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 80,
+  "height": 96,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cb336e1e-9efe-421a-b8ed-32ee308094e4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ab0458ce-31f6-49a1-ad9c-a05d60aefb87","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"adf6cba9-f0e3-4c23-a186-b0be21388bb1","path":"sprites/spr_Eric_DGMN_Overworld/spr_Eric_DGMN_Overworld.yy",},},},"Disabled":false,"id":"6b9a394e-c37f-4099-b7ed-b8f68586bbdf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a6cde32d-cdd2-4a73-97d5-7723692cdaa2","path":"sprites/spr_Eric_DGMN_Overworld/spr_Eric_DGMN_Overworld.yy",},},},"Disabled":false,"id":"f1ca0526-9039-4019-a65c-b57e08ff3d39","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 192,
 }

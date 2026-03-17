@@ -13,10 +13,10 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"879cf157-0034-4d95-9bcf-2f1432f6b9df",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5422a570-b252-457a-b288-e56b8d91485a",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c43e3adb-c458-49ad-a353-62d77db1b31f",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0e2bae04-ccca-4998-a688-bc83cdc3a946",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"879cf157-0034-4d95-9bcf-2f1432f6b9df",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5422a570-b252-457a-b288-e56b8d91485a",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"84e454a4-d029-46c1-9b74-e76464a28871",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c7cb8c69-efab-4a97-b4d8-3e626aaf07ce",},
   ],
@@ -59,10 +59,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"879cf157-0034-4d95-9bcf-2f1432f6b9df","path":"sprites/spr_Hawel_MAGE_Overworld/spr_Hawel_MAGE_Overworld.yy",},},},"Disabled":false,"id":"202c4eec-7f82-44ca-aeff-2d9de8bc0a3a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5422a570-b252-457a-b288-e56b8d91485a","path":"sprites/spr_Hawel_MAGE_Overworld/spr_Hawel_MAGE_Overworld.yy",},},},"Disabled":false,"id":"8a3e5876-f0db-4221-98d4-8e7b31ea9f4d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c43e3adb-c458-49ad-a353-62d77db1b31f","path":"sprites/spr_Hawel_MAGE_Overworld/spr_Hawel_MAGE_Overworld.yy",},},},"Disabled":false,"id":"90e41ebc-e7d8-4b0b-b565-9dd4a5c27d0e","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0e2bae04-ccca-4998-a688-bc83cdc3a946","path":"sprites/spr_Hawel_MAGE_Overworld/spr_Hawel_MAGE_Overworld.yy",},},},"Disabled":false,"id":"a4e0e00d-3ed2-4034-b510-217c73f4070f","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c43e3adb-c458-49ad-a353-62d77db1b31f","path":"sprites/spr_Hawel_MAGE_Overworld/spr_Hawel_MAGE_Overworld.yy",},},},"Disabled":false,"id":"90e41ebc-e7d8-4b0b-b565-9dd4a5c27d0e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0e2bae04-ccca-4998-a688-bc83cdc3a946","path":"sprites/spr_Hawel_MAGE_Overworld/spr_Hawel_MAGE_Overworld.yy",},},},"Disabled":false,"id":"a4e0e00d-3ed2-4034-b510-217c73f4070f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"879cf157-0034-4d95-9bcf-2f1432f6b9df","path":"sprites/spr_Hawel_MAGE_Overworld/spr_Hawel_MAGE_Overworld.yy",},},},"Disabled":false,"id":"202c4eec-7f82-44ca-aeff-2d9de8bc0a3a","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5422a570-b252-457a-b288-e56b8d91485a","path":"sprites/spr_Hawel_MAGE_Overworld/spr_Hawel_MAGE_Overworld.yy",},},},"Disabled":false,"id":"8a3e5876-f0db-4221-98d4-8e7b31ea9f4d","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"84e454a4-d029-46c1-9b74-e76464a28871","path":"sprites/spr_Hawel_MAGE_Overworld/spr_Hawel_MAGE_Overworld.yy",},},},"Disabled":false,"id":"fc96e1ae-98b9-44cf-9e9c-821276ac3a30","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c7cb8c69-efab-4a97-b4d8-3e626aaf07ce","path":"sprites/spr_Hawel_MAGE_Overworld/spr_Hawel_MAGE_Overworld.yy",},},},"Disabled":false,"id":"6510c74b-54ed-4dcf-bfe5-db323892e041","IsCreationKey":false,"Key":5.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},

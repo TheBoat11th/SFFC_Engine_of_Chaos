@@ -16,13 +16,14 @@ create room from room template
 select room and set width and height
 go to viewports and cameras to set viewport 0 xy pos.
 set object controller on map
+Create room properties script
 
 map backround sprite
 set room order
 
 character:
 portrait - eyes,mouth open/closed
-overworld sprite - bbffrr
+overworld sprite - FF-BB-RR
 battle sprite - attack, block, cast, idle
 character properties script
 

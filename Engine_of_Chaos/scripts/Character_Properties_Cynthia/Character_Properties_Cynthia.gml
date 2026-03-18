@@ -26,11 +26,11 @@ function Get_Appearance_Cynthia(_lookup_type,_character,_stat){
 	//=============
 	switch(Get_Character_Class(_lookup_type,_character,"Abbreviation")){
 		case "HEAL": 
-			_overworld_sprite = spr_Generic_Chicken_Overworld; 
+			_overworld_sprite = spr_Cynthia_HEAL_Overworld; 
 			_battle_sprite = "Cynthia_HEAL";
 		break;
 		case "PRST": 
-			_overworld_sprite = spr_Generic_Chicken_Overworld; 
+			_overworld_sprite = spr_Cynthia_PRST_Overworld; 
 			_battle_sprite = "Cynthia_PRST";
 		break;
 	}

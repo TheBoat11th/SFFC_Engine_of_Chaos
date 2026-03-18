@@ -15,7 +15,7 @@ function Create_Global_Game_Settings() {
 	global.Pixel_Divider = 4;
 	global.Vsync = false;
 	global.FPS_Cap = 60;
-	global.Dialogue_Speed = 4;
+	global.Dialogue_Speed = 5;
 	global.Perma_Death = false;
 	global.Difficulty = "Normal";
 	global.Sound_Volume = .5;
@@ -80,4 +80,5 @@ function Create_Global_Game_Settings() {
 	global.Max_Target_Range = 99;//Max search distance when generating attack range
 	global.Max_AoE_Range = 99;//Max AoE Size
 	global.Egress_Room = noone;//Room we retreat back to.
+	global.PTC = true;//global Pass_Through_Character for cutscene scripting.
 }

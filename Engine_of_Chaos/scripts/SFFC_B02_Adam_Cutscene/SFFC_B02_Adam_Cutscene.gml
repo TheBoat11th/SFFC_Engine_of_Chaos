@@ -59,7 +59,7 @@ function SFFC_B02_Adam_Cutscene(){
 	    break;
 		case 7.1:
 			state += .1;
-			//Nod_Head(_Elder);
+			Nod_Head(_Elder);
 			alarm[0] = 15 * global.xspeed;
 		break;
 		case 7.2:

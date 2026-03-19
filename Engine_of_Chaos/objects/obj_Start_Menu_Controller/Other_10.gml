@@ -80,11 +80,12 @@ else{
             Start_New_Dialogue("Change your mind?@",false,false);
         }
         else if(parent_event = "Named_Character"){
-            state = "Display_Difficulty_Message";
+            //state = "Display_Difficulty_Message";
+			state = "New_SFFC_Game";
             parent_event = "none";
             obj_Dialogue_Controller.current_object = id;
             global.Name[0] = new_character_name;
-            Start_New_Dialogue(new_character_name + "?^ Nice name!",true,false);
+            Start_New_Dialogue(new_character_name + ", is it?^ Cool name!",true,false);
         }
         else if(parent_event = "Load_Game"){
             if(global.Save_Slot = global.Number_Of_Save_Slots){//If we chose the delete option,
@@ -113,6 +114,16 @@ else{
             Start_New_Dialogue("Are you sure you want to delete this save?@",false,false);
         }
     }
+	
+    //==========================
+    //New SFFC Game
+    //==========================
+	else if(state = "New_SFFC_Game"){
+			state = "New_Game";
+            Start_New_Dialogue("That book may take some time!^ You'd best hurry along!",true,true);
+			
+	}
+	
     //==========================
     //Display Difficulty Message
     //==========================

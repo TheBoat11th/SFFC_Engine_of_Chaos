@@ -5,7 +5,7 @@ C:\Users\Username\AppData\Local\Engine_of_Chaos\Game_Settings.cfg - where you ca
 
 key config defined in Get_Control_Names
 
-global.PTC(Pass_Through_Character) for cutscene scripting in Destination_Blocked line-24 default = true
+global.PTC(Pass_Through_Character) for cutscene scripting in Destination_Blocked line-24; Default = true
 
 Display Cursor Disabled inrelease
 
@@ -28,6 +28,12 @@ overworld sprite - FF-BB-RR
 battle sprite - attack, block, cast, idle
 character properties script
 
+"\\"		//In case we want to print out # or @ or ^ as a symbol instead of newline / perform action / half second delay
+"@"		//If we have an action, then break and call the event. (For things like pauses, ect.)
+"^" 		// the '^' symbol will delay the dialogue for half a second.
+"%" 		// the '%' symbol will delay the dialogue until user input                        
+"\n"		//If we have more than 3 lines, Delete the first and pan the message up a line.
+
 
 Movement_Tile: Create - image_speed increase to .25 to match  SF Legacy of Great Intention
 //Movement tile flashing pattern sprites
@@ -35,7 +41,6 @@ Movement_Tile: Create - image_speed increase to .25 to match  SF Legacy of Great
 					4  4  4  4  4  4  4  4   32
 //LOGI - nddlnln			0,-1,-2,-1,0,+1,0
 					3 3   9  3 6  3 3 	 30
-
 
 https://finalconflict.shiningforcecentral.com/pages/characters_force_ian.html
 Character Properties
@@ -46,8 +51,4 @@ Attack_Range
 Level_Scheme
 Boost battle cutscene event
 battle sprite
-
-
-
-
 

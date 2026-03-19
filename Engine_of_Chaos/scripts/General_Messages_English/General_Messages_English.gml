@@ -12,8 +12,8 @@ function General_Messages_English(_menu, _message_ID, _data1, _data2, _data3, _d
 		//===========
 		case "Intro_Menu":
 			switch(_message_ID){
-				case "Intro_Dialogue_Short": return ("I can tell just how pumped you are, so here's the menu to get started!@") break;	
-				case "Intro_Dialogue": return ("Did you know that you can skip this message by holding space on the previous screen?%\nI can tell just how pumped you are, so here's the menu to get started!@") break;	
+				case "Intro_Dialogue_Short": return ("Oh, a visitor!%\n Perhaps we can read this book together...@") break;	
+				case "Intro_Dialogue": return ("''And so began Mishaela's new ambition...^%\n...but Max was on his way to stop her.^\nAfter a fierce battle at the ancient temple,^ Max set off to pursue Mishaela.''^^\nI wonder what happened next?^%\nOh, a visitor!^\n Perhaps we can read this book together...@") break;	
 			}
 		break;
 		

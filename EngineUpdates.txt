@@ -46,3 +46,10 @@ Battle_02 terrain_Instace_Layer Visible
 
 meeting Ciera, and Max cutscene adjusted for 240fps+
 
+Room_Intro_Menu edit at:
+obj_Start_Menu_Controller - Line 88,84 and 121.
+General_Messages_English - Line 15,16.
+
+
+
+

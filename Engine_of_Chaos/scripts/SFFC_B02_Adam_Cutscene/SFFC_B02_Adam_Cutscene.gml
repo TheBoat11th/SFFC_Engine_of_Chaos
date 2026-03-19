@@ -18,8 +18,8 @@ function SFFC_B02_Adam_Cutscene(){
 			state += 3;
 	        Create_Screen_Fade(c_black,1,2,0,"out",id);//Color, Alpha, Stop, Speed, Direction, Current Object
 	        alarm[0] = 1;
-			//Face_Direction(_Adam,"Right");
-	        //Face_Direction(_Elder,"Left");
+			Face_Direction(_Adam,"Right");
+	        Face_Direction(_Elder,"Left");
 	    break;
 		case 1:
 			state += 2;
@@ -33,8 +33,8 @@ function SFFC_B02_Adam_Cutscene(){
 			_Hawel.cutscene_mode = true;
 			_Cynthia.cutscene_mode = true;
 			_Knuckles.cutscene_mode = true;
-			 Face_Direction(_Adam,"Right")
-			 Face_Direction(_Elder,"Left")
+			 //Face_Direction(_Adam,"Right")
+			 //Face_Direction(_Elder,"Left")
 		break;
 	case 3:
 	        state += 1;
@@ -42,7 +42,7 @@ function SFFC_B02_Adam_Cutscene(){
 		break;																																																								//repair
 	case 4:
 	        state += 1;
-	        Pan_Camera_To_Location(528,288,,99);
+	        Pan_Camera_To_Location(528,240,false,99);
 			alarm[0] = 4 * global.xspeed;
 	    break;
 	    case 5:
@@ -225,8 +225,8 @@ function SFFC_B02_Adam_Cutscene(){
 		break;
 		case 64.6:
 	        state += .1;
-			 Pan_Camera_To_Location(528,340,,3)
-			 //Pan_Camera_To_Target(_Hawel,1)
+			 //Pan_Camera_To_Location(528,340,,3)
+			 Pan_Camera_To_Target(_Hawel,1)
 			 alarm[0] = 20 * global.xspeed;
 		break;
 		
@@ -248,7 +248,7 @@ function SFFC_B02_Adam_Cutscene(){
 		break
 		case 65:
 	        state += .5;
-			 Pan_Camera_To_Location(528,284,,3)
+			 Pan_Camera_To_Location(528,240,false,3)
 			 alarm[0] = 20 * global.xspeed;
 		break;
 		
